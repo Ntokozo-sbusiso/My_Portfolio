@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="#" class="logo">Portfolio.</a>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="bars-animation">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+        </div>
+        
+        <section class="home" id="home">
+            <div class="home-info">
+                <h1>Ntokozo Hadebe</h1>
+                <h2>I am a 
+                    <span style="--i:4;" data-text="Junior Software Developer">Junior Software Developer</span>
+                    <span style="--i:3;" data-text="Data Science">Data Science</span>
+                    <span style="--i:2;" data-text="Data Analyst">Data Analyst</span>
+                    
+                </h2>
+                <p>To be added later on</p>
+                <div class="btn-sci">
+                    <a href="#" class="btn">Download CV</a>
+                    <div class="sci">
+                        <a href="https://github.com/your-github"><i class='bx bxl-github'></i></a>
+                        <a href="https://linkedin.com/in/your-linkedin"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <div class="img-item">
+                        <img src="Ntokozo_picture.JPG" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>This is the About section. You can add information about yourself here.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <h1><img src="portfolio-image1.jpg" alt="CSV File Upload for Data Processing">
+                    </h1>
+                    <p>This project simplifies data preparation through a user-friendly platform. 
+                        Upload a CSV file, and the system will:</p>
+                    <ul>
+                        <li>Ingest and store your data securely.</li>
+                        <li>Clean and transform it by handling missing values, standardizing columns, and removing duplicates.</li>
+                        <li>Provide a downloadable, cleaned dataset ready for analysis or visualization.</li>
+                    </ul>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-image2.jpg" alt="Project 2">
+                    <p>Project 2 Description</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            
+                <div class="services" id="services">
+                    <div class="container">
+                        <h1 class="sub-title">My <span>Services</span></h1>
+                        <div class="services-list">
+                            <div>
+                                <i class="bx bx-code" style="color: #00eeff" ></i>
+                                <h2>Ui/UX Desing</h2>
+                                <p>loren design</p>
+                                <a href="https://github.com/Ntokozo-sbusiso/ATM-Machine" class="read">learn more </a>
+                            </div>
+                            <div>
+                                <i class="bx bx-code" style="color: #00eeff" ></i>
+                                <h2>Ui/UX Desing</h2>
+                                <p>loren design</p>
+                                <a href="#" class="read">learn more </a>
+                            </div>
+                            <div>
+                                <i class="bx bx-code" style="color: #00eeff" ></i>
+                                <h2>Ui/UX Desing</h2>
+                                <p>loren design</p>
+                                <a href="#" class="read">learn more </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            
+        </section>
+        <h1 class="sub-title">My <span>Skills</span></h1>
+
+        <section>
+            <div class="container1" id="Skills">
+                <h1 class="heading1">Technical Skills</h1>
+                <div class="Technical-bars">
+                    <div class="bar"><i style="color: #c95d2e" class="bx bxl-html5"></i>
+                        <div class="info">
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color: #00eeff" class="bx bxl-java"></i>
+                        <div class="info">
+                            <span>Java</span>
+                        </div>
+                        <div class="progress-line java">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container1">
+                <h1 class="heading1">Professional Skills</h1>
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">60%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">60%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">60%</div>
+                    <div class="text">Communication</div>
+                </div>
+                <div class="radial-bars">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">60%</div>
+                    <div class="text">Communication</div>
+                </div>
+            </div>
+        
+        </section>
+
+        <section>
+            <div id="portfolio" id="project">
+                <div class="main-text" id="project">
+                <h2>Latest<span>Project</span></h2>
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="5757453.jpg">
+                        <div class="layer"></div>
+                            <h5>UI/UX design</h5>
+                            <p>to be add later on</p>
+                            <a href="#"><i class="bx bx-link-external" style="color: aliceblue;"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out at: <a href="mailto:hopein95@gmail.com">hopein95@gmail.com</a></p>
+        </section>
+    </body>
+</html>
