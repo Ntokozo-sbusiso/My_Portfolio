@@ -17,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #051129;
+    background: #428f84;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +57,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: rgb(21, 18, 26) no-repeat;
+    background: rgb(34, 28, 44) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -101,8 +101,13 @@ body {
 .home-content p {
     font-size: 20px;
     opacity: 0;
+    line-height: 2;
+    /* margin-bottom: 10px; */
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
+}
+.home-content p span{
+    font-size: 16px;
 }
 
 .home-sci a {
@@ -134,24 +139,24 @@ body {
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: rgb(94, 214, 223);
     border-radius: 40px;
     font-size: 16px;
-    color: #081b1b29;
+    color: black;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef;
+    box-shadow: 0 0 5px rgb(71, 110, 113),
+        0 0 25px rgb(56, 88, 91);
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan
+    box-shadow: 0 0 5px rgb(60, 99, 99),
+        0 0 25px rgb(60, 91, 91), 0 0 50px rgb(51, 82, 82),
+        0 0 100px rgb(45, 84, 84), 0 0 200px rgb(47, 78, 78)
 }
 
 .about {
@@ -165,7 +170,7 @@ body {
     padding-bottom: 20%;
     max-width: 630px;
     height: auto;
-    width: 100%;
+    width: 70%;
     border-radius: 8px;
 }
 
@@ -212,6 +217,11 @@ body {
 .container {
     padding: 90px;
 }
+.container p{
+    font-size: 17px;
+    
+    text-align: center;
+}
 
 .services-list {
     display: grid;
@@ -249,6 +259,11 @@ body {
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
+}
+.services-list p{
+    font-size: 17px;
+    text-align: left;
+    line-height: 1.8;
 }
 
 .read {
