@@ -53,12 +53,13 @@ body {
 }
 
 .home {
+    color: black;
     position: relative;
     line-height: 60px;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: #081b1b29 no-repeat;
+    background:rgb(219, 219, 219);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -67,8 +68,19 @@ body {
 }
 
 .home-content {
+    /* background: white; */
     max-width: 600px;
 
+}
+
+.home img {
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+    padding-bottom: 20%;
+    max-width: 300px;
+    height: auto;
+    width: 60%;
+    border-radius: 20px;
 }
 
 .home-content h3 {
@@ -119,10 +131,10 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid rgb(51, 62, 63);
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color:black;
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
@@ -133,16 +145,16 @@ body {
 }
 
 .home-sci a:hover {
-    background: #0ef;
+    background: rgb(68, 95, 96);
     color: #081b1b29;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px rgb(137, 156, 157);
 }
 
 .btn-box {
     display: inline-block;
-    padding: 12px 28px;
-    background: rgb(94, 214, 223);
-    border-radius: 40px;
+    padding: 10px 20px;
+    background: #5c9ccd;
+    border-radius: 30px;
     font-size: 16px;
     color: black;
     letter-spacing: 1px;
@@ -152,38 +164,40 @@ body {
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
     box-shadow: 0 0 5px rgb(71, 110, 113),
-        0 0 25px rgb(56, 88, 91);
+        0 0 25px rgb(68, 68, 68);
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px rgb(60, 99, 99),
-        0 0 25px rgb(60, 91, 91), 0 0 50px rgb(51, 82, 82),
-        0 0 100px rgb(45, 84, 84), 0 0 200px rgb(47, 78, 78)
+    box-shadow: 0 0 5px rgb(60, 99, 99);
+}
+
+.blank .blank-line{
+    width: 100%;
+    padding: 3px 3%;
+    background: #7a7f7e;
+
 }
 
 .about {
-    background: #081b1b29;
-    display: grid;
+    
+    background:rgb(219, 219, 219);
+    display:flex;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 0.5rem;
     line-height: 50px;
 }
 
-.about-img img {
-    padding-bottom: 20%;
-    max-width: 500px;
-    height: auto;
-    width: 70%;
-    border-radius: 8px;
-}
+
 
 .about-text h2 {
+    color:#555557;
+    text-align: center;
     font-size: 60px;
 }
 
 .about-text h2 span {
-    color: #0ef;
+    color: #555557;
 }
 
 .about-text h4 {
@@ -195,27 +209,29 @@ body {
 }
 
 .about-text p {
-    color: aliceblue;
+    color:#555557;
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 3rem;
 }
 
 #services {
-    color: aliceblue;
+    background: rgb(219,219,219);
+    color:black;
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4reem;
 }
 
 .sub-title {
+    color: #555557;
     text-align: center;
-    font-size: 60px;
+    font-size: 55px;
     padding-bottom: 70px;
 }
 
 .sub-title span {
-    color: #0ef;
+    color:#555557;
 }
 
 .container {
@@ -242,8 +258,8 @@ body {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px #012290f7,
-        1px 1px 40px #0053b8f7;
+    box-shadow: 1px 1px 20px #8e9097f7,
+        1px 1px 40px #838689f7;
 }
 
 .services-list div i {
@@ -273,7 +289,7 @@ body {
 .read {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: rgb(118, 130, 131);
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -283,31 +299,32 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px #0ef,
-        0 0 25px #0ef;
+    box-shadow: 0 0 5px rgb(75, 80, 80);
 
 }
 
 .read:hover {
     box-shadow: 0 0 5px cyan,
-        0 0 25px cyan, 0 0 50px cyan,
-        0 0 100px cyan, 0 0 200px cyan;
+        0 0 25px cyan, 0 0 50px rgb(52, 59, 59);
 }
 
 .services-list div:hover {
     transform: translateY(-10px);
 }
-
+.container11{
+    background: rgb(219, 219, 219);
+    
+}
 
 .skill-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
     grid-gap: 40px;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .skill-list div {
-    background: linear-gradient(135deg, #0d70bc, #0053b8); /* Smooth gradient */
+    background: linear-gradient(135deg, #648298, #0053b8); /* Smooth gradient */
     padding: 40px;
     font-size: 19px;
     font-weight: 500; /* Slightly thicker text */
@@ -638,17 +655,23 @@ body {
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
+.portfolio {
+    margin-top: -5px;
+    background: rgb(219, 219, 219);
+}
 .main-text{
     padding-top: 130px;
     margin-top: 5px;
 }
 .main-text h2{
+    /* margin-top: 2px; */
+    color: #555557;
     font-size: 60px;
     line-height: 1;
     text-align: center;
 }
 .main-text h2 span{
-    color: #0ef;
+    color: #555557;
 }
 .portfolio-content{
     display: grid;
@@ -721,9 +744,9 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 3rem;
-    padding-left: 30px;
-    margin-top: 130px;
+    gap: 2rem;
+    padding-left: 20px;
+    margin-top: 10px;
 }
 .contact-text h2{
     font-size: 80px;
