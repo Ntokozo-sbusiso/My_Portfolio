@@ -663,6 +663,18 @@ body {
     padding-top: 130px;
     margin-top: 5px;
 }
+.main-text h3{
+    margin-top: 20px;
+    color:#555557;
+}
+.main-text p{
+    color:#555557;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
 .main-text h2{
     /* margin-top: 2px; */
     color: #555557;
@@ -717,7 +729,8 @@ body {
     margin-bottom: 15px;
 }
 .layer p{
-    color: #000;
+    background-color: rgba(200, 193, 193, 0.8);
+    color: black;
     font-size: 1rem;
     line-height: 1.8;
 
